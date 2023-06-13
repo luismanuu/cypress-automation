@@ -10,4 +10,6 @@ npm install
 npx cypress open
  ```
  ## Project information:
- Cypress project using Functional Programming pattern(https://dev.to/muratkeremozcan/functional-test-patterns-with-cypress-27ed) and Cypress best practices (https://docs.cypress.io/guides/references/best-practices)
+ MAIN BRANCH -> Cypress project using Functional Programming pattern(https://dev.to/muratkeremozcan/functional-test-patterns-with-cypress-27ed) and Cypress best practices (https://docs.cypress.io/guides/references/best-practices)
+
+POM Branch -> Cypress project using Page Object Model pattern
