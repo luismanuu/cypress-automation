@@ -1,4 +1,14 @@
 {
-  "username": "standard_user",
-  "password": "secret_sauce"
+  "valid_users": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  ],
+  "invalid_users": [
+    {
+      "username": "invalid_user",
+      "password": "invalid_password"
+    }
+  ]
 }

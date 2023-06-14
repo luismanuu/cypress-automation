@@ -1,6 +1,12 @@
 /// <reference types="cypress" />
 
-export function login(username, password){
+class LoginPage{
+
+ static loadLoginPage(){
+    cy.visit(Cypress.config().baseUrl)
+  }
+
+  static login(username, password){
   cy.session([username,password], ()=> {
     cy.visit(Cypress.config().baseUrl)
     cy.get('[data-test="username"]').type(username)
@@ -10,3 +16,7 @@ export function login(username, password){
     cacheAcrossSpecs: true
   })
   }
+
+}
+
+export default LoginPage;
